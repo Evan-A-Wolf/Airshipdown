@@ -1,5 +1,4 @@
 # Airshipdown
-A class project
 # Contributors
 
 ## Code
