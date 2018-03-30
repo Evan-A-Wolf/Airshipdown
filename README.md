@@ -5,7 +5,7 @@ A class project
 ## Code
 ### Malokai 
 ### Trevor
-### Joeseph 
+### Joseph 
 ### Easton
 
 ## Graphic
