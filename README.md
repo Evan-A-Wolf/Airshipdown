@@ -3,12 +3,13 @@ A class project
 # Contributors
 
 ## Code
-Malokai 
-Trevor
+### Malokai 
+### Trevor
+### Joeseph 
+### Easton
 
 ## Graphic
-
-## Story
+### Spencer
 
 ## Misc
-Patric
+### Patric
