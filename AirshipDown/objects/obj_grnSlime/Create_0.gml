@@ -5,3 +5,5 @@ image_alpha = 0.7;
 slm_maxJumpDelay = 120;
 slm_jumpDelay = 120;
 //slm_contact_dmg = 5+lvl;
+yspd = 0;
+xspd = 0;
