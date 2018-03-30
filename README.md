@@ -4,7 +4,11 @@ A class project
 
 ## Code
 Malokai 
+Trevor
 
 ## Graphic
 
 ## Story
+
+## Misc
+Patric
