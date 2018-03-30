@@ -4,7 +4,7 @@ A class project
 
 ## Code
 Malokai 
-//add names here.
+
 ## Graphic
 
 ## Story
