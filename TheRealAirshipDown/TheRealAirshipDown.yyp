@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "5c452fa4-670f-44ac-aa06-bcbb96e652d6",
+            "Value": {
+                "id": "1b4d0ff7-4a6c-4936-a967-20a02e379a64",
+                "resourcePath": "objects\\VARIABLES\\VARIABLES.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5e5b80e4-bc67-4897-bb37-2e087e8f8f67",
             "Value": {
                 "id": "0a37300a-1640-4355-8f69-973b963e392c",
@@ -295,6 +303,14 @@
             }
         },
         {
+            "Key": "c74ea3fe-5146-4d38-85f1-d10a62a19e1e",
+            "Value": {
+                "id": "d9197992-ddce-4af2-a859-3de4b7acb5c1",
+                "resourcePath": "scripts\\scr_player_movment\\scr_player_movment.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "dac19dac-39cb-4fd8-8f60-be5ef82dc124",
@@ -381,10 +397,18 @@
                 "resourcePath": "objects\\obj_Birds\\obj_Birds.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "f4d4156a-96ba-4ec3-8d9d-c95e2f97f643",
+            "Value": {
+                "id": "f19a67d1-c3ba-42a3-8a27-497ce486f3a9",
+                "resourcePath": "sprites\\FILLER_SPRITE\\FILLER_SPRITE.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
-        
+        "c74ea3fe-5146-4d38-85f1-d10a62a19e1e"
     ],
     "tutorial": ""
 }
