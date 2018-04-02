@@ -10,7 +10,7 @@ vspd = 0;
 airjump = 0;
 fric = 1;
 dirc = 1;
-
+ison = 0;
 //mechanics variables
 lvl = 0;
 hp = 100;

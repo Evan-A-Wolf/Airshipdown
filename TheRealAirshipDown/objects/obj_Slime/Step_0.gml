@@ -67,3 +67,10 @@ if (place_meeting(x,y,obj_player) && cooldown <= 50) {
 	cooldown = 0;
 }
 cooldown++;
+
+deathcool++;
+if (place_meeting(x,y,obj_sword)&&deathcool>=12) {
+	hp-=5;
+	deathcool=0;
+}
+if (hp<=0) instance_destroy();

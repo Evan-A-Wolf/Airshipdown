@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "613ce0e5-5a91-4195-97a8-b30076855a10",
+            "Value": {
+                "id": "67005e56-7c9b-400c-8e01-b9bbe46ee5bf",
+                "resourcePath": "objects\\obj_sword\\obj_sword.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "631311b3-cc2a-46f3-b25d-0135cd3a4d40",
             "Value": {
                 "id": "a9e32c01-50c7-4bba-ac34-0ca52eb4214f",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "80b6e5d2-b950-46d6-8f96-a4ca41f47a3a",
+            "Value": {
+                "id": "33782649-305f-4f9a-bb89-402da44dde8b",
+                "resourcePath": "sprites\\spr_sword_box\\spr_sword_box.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8e0e9361-37eb-4cbd-8a6d-858be0cbd98a",
             "Value": {
                 "id": "68448535-a4d9-4fd7-b369-4ccba9f879a1",
@@ -244,6 +260,14 @@
                 "id": "72cab138-567f-4b54-bafb-ffc4721351b4",
                 "resourcePath": "views\\a8de3c5f-298d-483f-bf32-9b70be89ad6d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "cfbc2096-f8fd-46ac-9737-34970745d511",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
             }
         },
         {
@@ -388,6 +412,14 @@
                 "id": "c72089c4-fe0b-4775-b27a-6246c38f559e",
                 "resourcePath": "views\\f1b73bbb-2fb1-4c3d-a05e-a664f2f14752.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "72abc5c0-7b59-486f-98d9-54a66500960c",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {
