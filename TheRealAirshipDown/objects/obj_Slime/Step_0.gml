@@ -39,7 +39,7 @@ if (place_meeting(x+hspd, y, obj_wall)) {
 	hspd = 0;
 }
 // Move horizontally
-if (place_meeting(x,y,obj_player)) hspd = 0;
+if (place_meeting(x,y,obj_player)) hspd = 0; canjump = 0;
 x += hspd;
 //     Vertical collisons
 if (place_meeting(x, y+vspd, obj_wall)) {
@@ -60,3 +60,10 @@ if hspd > 1 {
 }
 image_xscale = dirc;
 }
+
+// player death
+if (place_meeting(x,y,obj_player) && cooldown <= 50) {
+	obj_player.hp -= 5 + (slvl*2);
+	cooldown = 0;
+}
+cooldown++;

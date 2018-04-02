@@ -14,3 +14,6 @@ airjump = 0;
 fric = 1;
 dirc = 1;
 pdirc = 1;
+
+cooldown = 0;
+hp = 20 + (slvl*2);
