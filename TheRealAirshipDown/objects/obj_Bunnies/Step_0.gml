@@ -54,17 +54,10 @@ if hspd > 1 {
 } else if hspd < -1 {
 	dirc = -1;
 } else {
-	image_xscale = 1;
+	image_xscale = 0.5;
 }
-image_xscale = dirc;
+image_xscale = 0.5*dirc;
 }
-
-// player death
-if (place_meeting(x,y,obj_player) && cooldown <= 50) {
-	obj_player.hp -= 5 + (slvl*2);
-	cooldown = 0;
-}
-cooldown++;
 
 deathcool++;
 if (place_meeting(x,y,obj_sword)&&deathcool>=12) {
