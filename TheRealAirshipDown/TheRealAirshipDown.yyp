@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00994c8d-9419-4fff-995e-c75177029579",
+            "Value": {
+                "id": "3222b23c-99d3-40f4-9d2a-eeb520eec6af",
+                "resourcePath": "sprites\\debug_sprite_arrw\\debug_sprite_arrw.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "15348685-7e46-4154-8907-b79dd239fe19",
             "Value": {
                 "id": "dd190d3b-87db-4cc2-8ace-43f665952cc5",
@@ -100,6 +108,14 @@
                 "id": "7e5b5818-5d67-403a-ba46-eb50e1fea25e",
                 "resourcePath": "sprites\\spr_wall\\spr_wall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4fafa205-1944-45e3-abb8-ed52ef3d4cbe",
+            "Value": {
+                "id": "830a7b61-eaa7-4fd4-80c2-d8ba0ded9182",
+                "resourcePath": "objects\\obj_skel_Arrow\\obj_skel_Arrow.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -220,6 +236,14 @@
                 "id": "5f12a8c3-9349-499e-aa6e-c6219b4a9253",
                 "resourcePath": "objects\\obj_Witches\\obj_Witches.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7449e6ef-307d-4545-b388-cc52ce306f30",
+            "Value": {
+                "id": "674ef3c0-2d28-4888-b14f-0e3b718fe199",
+                "resourcePath": "sprites\\debug_sprite_arrwBreak\\debug_sprite_arrwBreak.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
