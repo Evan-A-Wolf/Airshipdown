@@ -12,7 +12,8 @@
         "2f427a7f-2600-4f8e-b036-15353ef34fa5",
         "3a3efff9-f663-4550-ac4b-e93bf1eabcd3",
         "170168fe-c3b0-4c36-bddf-eb4400b9e00a",
-        "f4d4156a-96ba-4ec3-8d9d-c95e2f97f643"
+        "f4d4156a-96ba-4ec3-8d9d-c95e2f97f643",
+        "e474a13f-86b8-4fd6-a90d-1a0e2377e765"
     ],
     "filterType": "GMSprite",
     "folderName": "Enemys Sprites",
