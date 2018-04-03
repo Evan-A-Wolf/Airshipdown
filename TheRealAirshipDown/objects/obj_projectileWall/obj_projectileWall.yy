@@ -1,8 +1,8 @@
 {
-    "id": "c4a2a032-fd86-4ba8-a889-cea3582ee3d0",
+    "id": "1cb8f60d-f3a1-4847-97fd-a1ceddcc132d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Skeleton",
+    "name": "obj_projectileWall",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "b2e8c3ba-0df3-4741-ad4b-baa79bef63a4",
+    "spriteId": "4e8f3b3f-fc39-49fb-8d4c-4e72f966da96",
     "visible": true
 }
