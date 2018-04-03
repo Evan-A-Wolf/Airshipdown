@@ -12,6 +12,7 @@
         "fd94996c-6b7f-456f-87b9-6993a27fcbab",
         "ba32811d-ff6a-4e84-8a53-9e1829331cf0",
         "72b77e64-9fcf-42ec-85f4-65aeae13823f",
+<<<<<<< HEAD
         "86a0a641-8c38-4dbb-9076-1c81b5f09dea",
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24,6 +25,9 @@
 =======
         "e9f02a36-4cd5-4446-8a10-65cb02f095a5"
 >>>>>>> parent of cdb3f84... Merge branch 'master' of https://github.com/Evan-A-Wolf/Airshipdown
+=======
+        "86a0a641-8c38-4dbb-9076-1c81b5f09dea"
+>>>>>>> parent of 8bada83... Arrow Added
     ],
     "IsDnD": false,
     "layers": [
@@ -46,6 +50,7 @@
 {"name": "inst_435C2F72","id": "fd94996c-6b7f-456f-87b9-6993a27fcbab","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_435C2F72","objId": "558bdf14-20cb-4265-beaf-a1046f468013","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 5,"mvc": "1.0","x": 960,"y": 384},
 {"name": "inst_1BC2082F","id": "ba32811d-ff6a-4e84-8a53-9e1829331cf0","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1BC2082F","objId": "c1f749c0-d9ea-46e1-92df-a09355efa9f1","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 256,"y": 672},
 {"name": "inst_708CD8D5","id": "72b77e64-9fcf-42ec-85f4-65aeae13823f","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_708CD8D5","objId": "53126d9b-c1d0-4375-be40-df1265f14682","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 768,"y": 576},
+<<<<<<< HEAD
 {"name": "inst_35BF31C3","id": "86a0a641-8c38-4dbb-9076-1c81b5f09dea","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_35BF31C3","objId": "5c452fa4-670f-44ac-aa06-bcbb96e652d6","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 0},
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58,6 +63,9 @@
 =======
 {"name": "inst_668BAF0D","id": "e9f02a36-4cd5-4446-8a10-65cb02f095a5","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_668BAF0D","objId": "4fafa205-1944-45e3-abb8-ed52ef3d4cbe","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 608,"y": 416}
 >>>>>>> parent of cdb3f84... Merge branch 'master' of https://github.com/Evan-A-Wolf/Airshipdown
+=======
+{"name": "inst_35BF31C3","id": "86a0a641-8c38-4dbb-9076-1c81b5f09dea","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_35BF31C3","objId": "5c452fa4-670f-44ac-aa06-bcbb96e652d6","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 0}
+>>>>>>> parent of 8bada83... Arrow Added
             ],
             "layers": [
 
