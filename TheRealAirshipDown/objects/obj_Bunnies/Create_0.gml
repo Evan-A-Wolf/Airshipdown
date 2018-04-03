@@ -16,4 +16,4 @@ pdirc = 1;
 
 deathcool = 0;
 cooldown = 0;
-hp = 20 + (slvl*2);
+hp = 1;
