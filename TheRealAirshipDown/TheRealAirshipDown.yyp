@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "3024d834-9352-4899-95ac-9925554c3e97",
-            "Value": {
-                "id": "7d335442-dcc6-4f7b-9d17-6181780a71ab",
-                "resourcePath": "objects\\obj_projectileWall\\obj_projectileWall.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "3458f4ef-2366-48ac-80aa-ad9f6f4dd5bf",
             "Value": {
                 "id": "cdf00baf-9f82-4a7f-bd4f-66fcff71427d",
@@ -255,6 +247,14 @@
             }
         },
         {
+            "Key": "924d79c2-0eda-4e9d-af8b-48bb82f613c1",
+            "Value": {
+                "id": "2bf7e597-9e70-4e88-a368-bc771a9ce320",
+                "resourcePath": "objects\\obj_Bunnies\\obj_Bunnies.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "98621e17-ed53-46ba-912d-59f5dece15b7",
             "Value": {
                 "id": "dc506a2e-0419-4884-b5d5-e32c14a4535d",
@@ -319,25 +319,6 @@
             }
         },
         {
-<<<<<<< HEAD
-            "Key": "b2fdf02e-bcf0-4711-912f-d887a1976269",
-            "Value": {
-                "id": "44a4a78d-93eb-4630-a048-134aee54184d",
-                "resourcePath": "objects\\obj_Bunnies\\obj_Bunnies.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "b5ae427f-d7c5-4d32-9b5f-a33e51e3e035",
-            "Value": {
-                "id": "5ce4712b-bd29-4d55-9138-63f10fd3d2db",
-                "resourcePath": "objects\\obj_detection\\obj_detection.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-=======
->>>>>>> 35229a76d6c6b5e0807267f40ba03ef9f5c17049
             "Key": "c1f749c0-d9ea-46e1-92df-a09355efa9f1",
             "Value": {
                 "id": "06de59ad-7a85-4391-a46a-eaee4b5c7b9b",
