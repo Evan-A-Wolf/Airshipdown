@@ -17,3 +17,7 @@ pdirc = 1;
 deathcool = 0;
 cooldown = 0;
 hp = 20 + (slvl*2);
+
+if(slvl>10){
+	sprite_index = spr_SlimePurple;
+}

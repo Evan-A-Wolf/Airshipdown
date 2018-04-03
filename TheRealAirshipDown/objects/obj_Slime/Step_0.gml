@@ -13,6 +13,10 @@ if(object_exists(obj_player)) {
 	hspd = 0;
 	// jumping
 	if (canjump == true) {
+		if(slvl>10){
+			sprite_index = spr_SlimePurpleJ;
+		}else
+			sprite_index = spr_SlimeJ;
 		vspd = -jspd;
 		hspd = mspd*dirc;
 		canjump = false;
@@ -35,6 +39,11 @@ if (place_meeting(x+hspd, y, obj_wall)) {
 		x += sign(hspd);
 	}
 	hspd = 0;
+	if(slvl>10){
+		sprite_index = spr_SlimePurple;
+	}else
+		sprite_index = spr_Slime;
+	
 }
 // Move horizontally
 if (place_meeting(x,y,obj_player)) hspd = 0; canjump = 0;
@@ -45,6 +54,11 @@ if (place_meeting(x, y+vspd, obj_wall)) {
 		y += sign(vspd);
 	}
 	vspd = 0;
+	if(slvl>10){
+		sprite_index = spr_SlimePurple;
+	}else
+		sprite_index = spr_Slime;
+	
 }
 // move vertically
 y += vspd;
