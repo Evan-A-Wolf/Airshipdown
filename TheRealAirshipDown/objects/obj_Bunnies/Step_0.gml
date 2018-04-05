@@ -64,4 +64,7 @@ if (place_meeting(x,y,obj_sword)&&deathcool>=12) {
 	hp-=5;
 	deathcool=0;
 }
-if (hp<=0) instance_destroy();
+if (hp<=0) {
+	global.bunsKilled++;
+	instance_destroy();
+}
