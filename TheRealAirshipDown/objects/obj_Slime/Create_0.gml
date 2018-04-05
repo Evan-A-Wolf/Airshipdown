@@ -1,4 +1,6 @@
 
+image_alpha = 0.7;
+
 slvl = obj_player.lvl;
 
 canjump = false;
