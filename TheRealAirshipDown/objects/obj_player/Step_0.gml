@@ -1,7 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-/// @description Insert description here
-// You can write your code in this editor
+/// @description 
 script_exists(scr_player_movment());
 var skey = keyboard_check(vk_space);
 if (hp <= 0) room_restart();

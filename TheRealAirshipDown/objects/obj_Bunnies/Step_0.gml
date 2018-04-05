@@ -1,23 +1,20 @@
 /// @description Things to be done with each tick.
 // Jumping sprite change
-if (!canjump && count <= 70-slvl) count++;
+if (!canjump && count <= 30-slvl) count++;
 else canjump = true;
 if(object_exists(obj_player)) {
-	if obj_player.x >= x {
-		pdirc = 1;
-	} else if obj_player.x < x {
-		pdirc = -1;
-	}
+	
 	if (place_meeting(x,y+1,obj_wall) && !place_meeting(x,y,obj_player)) {
 	vspd = 0;
 	hspd = 0;
 	// jumping
 	if (canjump == true) {
+		pdirc = irandom_range(-1,1);
 		vspd = -jspd;
 		hspd = mspd*dirc;
 		canjump = false;
 		count = 0;
-	}
+	} 
 } else {
 	// gravity
 	if (vspd < 10) {
