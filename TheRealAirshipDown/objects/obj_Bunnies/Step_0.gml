@@ -10,6 +10,9 @@ if(object_exists(obj_player)) {
 	// jumping
 	if (canjump == true) {
 		pdirc = irandom_range(-1,1);
+		if(pdirc == 0){
+			pdirc = -1;
+		}
 		vspd = -jspd;
 		hspd = mspd*dirc;
 		canjump = false;
