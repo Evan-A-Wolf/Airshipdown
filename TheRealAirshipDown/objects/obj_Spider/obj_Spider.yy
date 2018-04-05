@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_Spider",
     "eventList": [
-        
+        {
+            "id": "1531ff4b-0f66-4dad-bb85-6f7b73c82e4b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "6bd1c1ec-5b56-46c2-b23f-2942b895000e"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
