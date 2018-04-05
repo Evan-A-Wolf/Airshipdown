@@ -74,7 +74,7 @@ image_xscale = dirc;
 }
 
 // player death
-if (place_meeting(x,y,obj_player) && cooldown <= 50) {
+if (place_meeting(x,y,obj_player) && cooldown >= 10) {
 	obj_player.hp -= 5 + (slvl*2);
 	cooldown = 0;
 }
