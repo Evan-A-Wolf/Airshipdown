@@ -14,3 +14,9 @@ if (skey && ison >= limit) {
 	if (dirc == -1) obj_sword.image_xscale = -1;
 	ison = 0;
 }
+if(keyboard_check(ord("X"))){
+	game_save("MCPlatypus.dat");
+}
+if(keyboard_check(ord("Z"))){
+	game_load("MCPlatypus.dat");
+}
