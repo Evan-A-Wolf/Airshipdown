@@ -19,3 +19,9 @@ y+=brdVspd;
 if(brdHlth<=0){
 	instance_destroy();
 }
+
+if (place_meeting(x,y,obj_player) && cooldown >= 10) {
+	obj_player.hp -= brdDmg;
+	cooldown = 0;
+}
+cooldown++;
