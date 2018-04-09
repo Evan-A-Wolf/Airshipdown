@@ -226,7 +226,7 @@
             "Key": "57fb8cd3-728f-4aac-abeb-48d7483f246e",
             "Value": {
                 "id": "786fa0a2-4c55-451e-b003-074e28bb0f29",
-                "resourcePath": "sprites\\spr_slime\\spr_slime.yy",
+                "resourcePath": "sprites\\spr_Slime\\spr_Slime.yy",
                 "resourceType": "GMSprite"
             }
         },
