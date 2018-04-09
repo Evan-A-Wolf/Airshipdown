@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_Witches",
     "eventList": [
-        
+        {
+            "id": "ee5a383a-7db1-44bd-acfe-4a4638e35c06",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "6f0878b1-79dd-4d68-9ecc-9de3dfd29377"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
