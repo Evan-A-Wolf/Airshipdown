@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "52527d25-916b-4ed8-8549-cc324b0c67b7",
+            "Value": {
+                "id": "62c853b4-ea21-45e5-a26d-95246f23bb8e",
+                "resourcePath": "scripts\\scr_enemy_death\\scr_enemy_death.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "53126d9b-c1d0-4375-be40-df1265f14682",
             "Value": {
                 "id": "87c1ce0a-5e02-47da-b07c-b35d61b4c820",
@@ -752,7 +760,8 @@
         }
     ],
     "script_order": [
-        "c74ea3fe-5146-4d38-85f1-d10a62a19e1e"
+        "c74ea3fe-5146-4d38-85f1-d10a62a19e1e",
+        "52527d25-916b-4ed8-8549-cc324b0c67b7"
     ],
     "tutorial": ""
 }

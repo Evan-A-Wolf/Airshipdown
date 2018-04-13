@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+
 if (place_meeting(x,y,obj_player) && cooldown >= 10) {
 	obj_player.hp -= 5 + (slvl*2);
 	cooldown = 0;
@@ -11,7 +10,4 @@ if (place_meeting(x,y,obj_sword)&&deathcool>=12) {
 	hp-=5;
 	deathcool=0;
 }
-if (hp<=0) {
-	instance_destroy(); 
-	instance_destroy(obj_detection);
-}
+if (hp<=0) instance_destroy();
