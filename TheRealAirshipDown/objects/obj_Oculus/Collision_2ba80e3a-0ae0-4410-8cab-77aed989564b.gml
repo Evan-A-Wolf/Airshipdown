@@ -1,0 +1,2 @@
+brdHlth --;
+instance_destroy();
