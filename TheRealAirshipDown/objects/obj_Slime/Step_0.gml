@@ -13,7 +13,6 @@ if(object_exists(obj_player)) {
 	hspd = 0;
 	// jumping
 	if (canjump == true) {
-		
 		sprite_index = spr_SlimeJ;
 		vspd = -jspd;
 		hspd = mspd*dirc;

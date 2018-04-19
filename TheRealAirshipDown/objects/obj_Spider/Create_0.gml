@@ -4,5 +4,9 @@ cooldown = 0;
 deathcool = 0;
 
 hspd = 0;
+vspd = 0;
+jspd = 10;
 mspd = 10;
-dirc = 0;
+grav = 5;
+hp = 10;
+dirc = irandom_range(-1,1);
