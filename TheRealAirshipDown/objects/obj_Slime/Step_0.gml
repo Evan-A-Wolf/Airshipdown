@@ -19,6 +19,7 @@ if(object_exists(obj_player)) {
 		hspd = mspd*dirc;
 		canjump = false;
 		count = 0;
+		y+=vspd;
 	}
 } else {
 	// gravity
