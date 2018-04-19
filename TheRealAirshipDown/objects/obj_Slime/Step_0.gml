@@ -2,6 +2,7 @@
 // Jumping sprite change
 if (!canjump && count <= 70-slvl) count++;
 else canjump = true;
+
 if(object_exists(obj_player)) {
 	if obj_player.x >= x {
 		pdirc = 1;
