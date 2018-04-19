@@ -6,12 +6,15 @@ if(object_exists(obj_player)) {
 	} else if obj_player.x < x {
 		pdirc = -1;
 	}
-	if (place_meeting(x,y+1,obj_wall) && !place_meeting(x,y,obj_player)) {
+	if (place_meeting(x,y,obj_s_changedirc)) {
+		dirc = -1;
+		vspd *= -1;
+	}
+	if (place_meeting(x,y+1,obj_wall)) {
 	hspd = mspd*dirc;
 	// jumping
-	if (place_meeting(x,y,obj_s_changedirc)) dirc = -1;
 	if (canjump == true) {
-		vspd = -jspd;
+		vspd = -jspd*vdirc;
 		hspd = mspd*dirc;
 		canjump = false;
 		count = 0;
@@ -46,6 +49,7 @@ if (place_meeting(x, y+vspd, obj_wall)) {
 	}
 	vspd = 0;
 }
+
 // move vertically
 y += vspd;
 // flip direction
