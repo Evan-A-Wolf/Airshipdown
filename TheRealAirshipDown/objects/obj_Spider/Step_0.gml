@@ -7,9 +7,9 @@ if(object_exists(obj_player)) {
 		pdirc = -1;
 	}
 	if (place_meeting(x,y+1,obj_wall) && !place_meeting(x,y,obj_player)) {
-	vspd = 0;
 	hspd = mspd*dirc;
 	// jumping
+	if (place_meeting(x,y,obj_s_changedirc)) dirc = -1;
 	if (canjump == true) {
 		vspd = -jspd;
 		hspd = mspd*dirc;
@@ -27,13 +27,14 @@ if(object_exists(obj_player)) {
 		hspd = mspd*dirc;
 	}
 }
+
 //Horizontal collisons
 if (place_meeting(x+hspd, y, obj_wall)) {
 	while (!place_meeting(x+sign(hspd), y, obj_wall)) {
 		x += sign(hspd);
 	}
 	hspd = 0;
-	
+	vspd = -jspd;
 }
 // Move horizontally
 if (place_meeting(x,y,obj_player)) hspd = 0; canjump = 0;

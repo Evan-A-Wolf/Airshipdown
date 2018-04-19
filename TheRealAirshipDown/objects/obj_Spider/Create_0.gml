@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-mspd = 10;
+mspd = 4;
 cooldown = 0;
 deathcool = 0;
 slvl = obj_player.lvl;
