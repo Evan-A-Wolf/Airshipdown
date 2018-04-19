@@ -20,10 +20,7 @@ if(brdHlth<=0){
 	instance_destroy();
 }
 
-if (place_meeting(x,y,obj_player) && cooldown >= 10) {
-	obj_player.hp -= brdDmg;
-	cooldown = 0;
-}
+
 cooldown++;
 
 image_angle = point_direction(x,y,obj_player.x,obj_player.y);
