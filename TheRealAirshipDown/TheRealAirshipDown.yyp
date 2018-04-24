@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1c01578a-b0cf-4417-983f-4acaf49c80a6",
+            "Value": {
+                "id": "8f7446e5-ac85-4ba1-b492-5bc4061ae1b9",
+                "resourcePath": "rooms\\rm_bay_of_serpents\\rm_bay_of_serpents.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1cb8f60d-f3a1-4847-97fd-a1ceddcc132d",
             "Value": {
                 "id": "18d504dc-969d-464a-86fc-7fcf4a5162a4",
@@ -186,7 +194,7 @@
             "Key": "50d9a75d-e0b7-46ee-bd3f-7e717a9c2065",
             "Value": {
                 "id": "fbf04aaf-fb82-4b94-a2be-cc6f6a146c54",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_testing\\rm_testing.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -300,6 +308,14 @@
                 "id": "85db4979-d191-4468-9d30-7644fe1bfb31",
                 "resourcePath": "views\\645c18d8-1b28-4585-9873-59d17e4a0230.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "64b0b1e9-56f0-4d41-8ba9-a53c73e02a38",
+            "Value": {
+                "id": "eb78f4b6-3b5b-42dc-a917-493cdf6ffabd",
+                "resourcePath": "sprites\\spr_change\\spr_change.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
