@@ -16,6 +16,8 @@ fric = 1;
 dirc = 1;
 pdirc = 1;
 
+time = 15;
+
 deathcool = 0;
 cooldown = 0;
 hp = 20 + (slvl*2);

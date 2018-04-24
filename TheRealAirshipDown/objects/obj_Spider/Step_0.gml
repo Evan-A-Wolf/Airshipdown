@@ -7,18 +7,12 @@ if(object_exists(obj_player)) {
 		pdirc = -1;
 	}
 	if (place_meeting(x,y,obj_s_changedirc)) {
-		dirc = -1;
+		dirc *= -1;
 		vspd *= -1;
 	}
 	if (place_meeting(x,y+1,obj_wall)) {
 	hspd = mspd*dirc;
 	// jumping
-	if (canjump == true) {
-		vspd = -jspd*vdirc;
-		hspd = mspd*dirc;
-		canjump = false;
-		count = 0;
-	}
 } else {
 	// gravity
 	if (vspd < 10) {
@@ -40,7 +34,6 @@ if (place_meeting(x+hspd, y, obj_wall)) {
 	vspd = -jspd;
 }
 // Move horizontally
-if (place_meeting(x,y,obj_player)) hspd = 0; canjump = 0;
 x += hspd;
 //     Vertical collisons
 if (place_meeting(x, y+vspd, obj_wall)) {

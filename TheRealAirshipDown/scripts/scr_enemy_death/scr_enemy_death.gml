@@ -1,5 +1,5 @@
 
-if (place_meeting(x,y,obj_player) && cooldown >= 10) {
+if (place_meeting(x,y,obj_player) && cooldown >= time) {
 	obj_player.hp -= 5 + (slvl*2);
 	cooldown = 0;
 }

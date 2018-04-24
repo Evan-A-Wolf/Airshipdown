@@ -2,7 +2,7 @@
     "id": "d6c5e399-6dc5-4f31-a831-764f4b799b25",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_detection",
+    "name": "obj_skel_detection",
     "eventList": [
         {
             "id": "59438404-049f-4a2d-9ae4-63d6432db3de",
