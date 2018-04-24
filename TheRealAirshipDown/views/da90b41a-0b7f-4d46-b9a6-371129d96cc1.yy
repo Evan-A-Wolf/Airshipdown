@@ -7,7 +7,7 @@
         
     ],
     "filterType": "GMSprite",
-    "folderName": "group0",
+    "folderName": "Witch",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
