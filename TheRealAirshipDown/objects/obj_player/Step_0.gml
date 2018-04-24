@@ -1,7 +1,10 @@
 /// @description 
 script_exists(scr_player_movment());
 var skey = keyboard_check(vk_space);
-if (hp <= 0) room_restart();
+if (hp <= 0){
+	game_load("roomsave.txt");
+	room_restart();
+}
 // Sowrd swing
 ison += 1;
 limit = 11;
