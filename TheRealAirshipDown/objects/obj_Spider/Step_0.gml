@@ -54,7 +54,7 @@ if hspd > 1 {
 	image_xscale = 1;
 }
 image_xscale = dirc;
-}
+} else instance_destroy();
 
 // player death
 script_exists(scr_enemy_death());;
