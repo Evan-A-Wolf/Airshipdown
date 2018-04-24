@@ -4,6 +4,7 @@
 //platforming variables
 grav = 1;
 spd = 6;
+origSpd = spd;
 jspd = 16;
 hspd = 0;
 vspd = 0;
