@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "8fcf50b6-7c75-494e-9bf6-d1aab8af76d2",
+            "Value": {
+                "id": "9601b62c-0866-43bb-97ed-8f70fabffa26",
+                "resourcePath": "objects\\GET_CLASS\\GET_CLASS.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "923c1a49-d63b-4d6e-a99f-ac9bc62f981e",
             "Value": {
                 "id": "a57369db-69f0-45dd-bcb0-7d28d82153cf",

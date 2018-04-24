@@ -13,13 +13,17 @@ fric = 1;
 dirc = 1;
 ison = 0;
 //mechanics variables
+
+//lck = 1;
+mg = 1;
+res = 1;
+
+
 lvl = 0;
 hp = 100;
 mp = 100;
 str = 1;
-//lck = 1;
-mg = 1;
-res = 1;
+
 
 battlemage = 1;
 wizard = 2;
