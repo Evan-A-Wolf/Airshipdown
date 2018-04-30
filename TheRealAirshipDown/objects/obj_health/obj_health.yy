@@ -1,5 +1,5 @@
 {
-    "id": "e8277b2b-14b9-4bab-aced-ca871614994c",
+    "id": "2c5f65a6-6ef0-4948-bff6-ebf25a24cfef",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_health",
