@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0c398ee9-42b4-4591-9d71-70f80ec02a6a",
+            "Value": {
+                "id": "d52cf3a5-06b2-4039-9963-802450c4b3e6",
+                "resourcePath": "objects\\obj_seaserpent\\obj_seaserpent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0defebe3-92bb-4253-ad2d-1f26993a26fc",
             "Value": {
                 "id": "173907bd-cbfd-47e0-b27a-3f2d91208884",
@@ -460,6 +468,14 @@
                 "id": "2b3709af-2566-4e3a-ade0-76a104f3c2c9",
                 "resourcePath": "datafiles_yy\\spr_slime\\spr_slime.yy.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "850976e0-1f1b-43e2-871a-6fad353f3b69",
+            "Value": {
+                "id": "dc0acdab-2e3c-4faa-b98d-a8421a961ce8",
+                "resourcePath": "sprites\\seaserpent\\seaserpent.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

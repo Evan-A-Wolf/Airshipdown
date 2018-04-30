@@ -11,7 +11,8 @@
         "15348685-7e46-4154-8907-b79dd239fe19",
         "c6c2361f-1bf4-45d2-a332-f4f0ad0850ed",
         "6f0878b1-79dd-4d68-9ecc-9de3dfd29377",
-        "924d79c2-0eda-4e9d-af8b-48bb82f613c1"
+        "924d79c2-0eda-4e9d-af8b-48bb82f613c1",
+        "0c398ee9-42b4-4591-9d71-70f80ec02a6a"
     ],
     "filterType": "GMObject",
     "folderName": "Enemy Objects",
