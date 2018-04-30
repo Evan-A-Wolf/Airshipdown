@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-game_save("roomsave.txt")
+
 //platforming variables
 grav = 1;
 spd = 6;

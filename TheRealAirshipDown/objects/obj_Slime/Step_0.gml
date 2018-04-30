@@ -3,8 +3,12 @@
 
 
 if(object_exists(obj_player)) {
-	if (!canjump && count <= (70+irandom_range(-5,5))-slvl) count++;
-else canjump = true;
+	if (!canjump && count <= (70+irandom_range(-5,5))-slvl) {
+		count++;
+	}
+	else {
+		canjump = true;
+	}
 	if obj_player.x >= x {
 		pdirc = 1;
 	} else if obj_player.x < x {
