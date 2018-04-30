@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_bay_of_serpents1",
+    "name": "rm_landfall",
     "id": "8dae18a3-7f7c-4070-b160-b4c28d044b9b",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
