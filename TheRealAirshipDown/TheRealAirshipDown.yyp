@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "8dae18a3-7f7c-4070-b160-b4c28d044b9b",
+            "Value": {
+                "id": "361e6ab4-affc-4a35-aef7-f8480a4880e6",
+                "resourcePath": "rooms\\rm_bay_of_serpents1\\rm_bay_of_serpents1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "8e0e9361-37eb-4cbd-8a6d-858be0cbd98a",
             "Value": {
                 "id": "68448535-a4d9-4fd7-b369-4ccba9f879a1",
