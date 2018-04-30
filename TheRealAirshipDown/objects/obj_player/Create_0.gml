@@ -31,3 +31,4 @@ caster = 3;
 class[0] = battlemage;
 class[1] = wizard;
 class[2] = caster;
+alarm[1] = 20;
