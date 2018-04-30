@@ -21,6 +21,7 @@ if(keyboard_check(ord("Z"))){
 	game_load("MCPlatypus.dat");
 }
 if (place_meeting(x,y,obj_health)) {
-	hp+=25;
+	if (hp+25 <= hpMax)	hp+=25;
+	else hp = hpMax;
 	instance_destroy(obj_health);
 }
