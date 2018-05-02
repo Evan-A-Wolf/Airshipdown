@@ -22,15 +22,13 @@ res = 1;
 lvl = 0;
 exper = 0;
 hp = 100;
-hpMax = hp;
+	hpMax = hp;
 mp = 100;
 str = 1;
 
 
-battlemage = 1;
-wizard = 2;
-caster = 3;
-class[0] = battlemage;
-class[1] = wizard;
-class[2] = caster;
+battlemage = 0;
+wizard = 1;
+caster = 2;
+class = 0;
 alarm[1] = 20;
