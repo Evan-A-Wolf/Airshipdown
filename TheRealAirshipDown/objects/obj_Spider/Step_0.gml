@@ -70,6 +70,7 @@ if (place_meeting(x,y,obj_sword)&&deathcool>=12) {
 	deathcool=0;
 }
 if (hp<=0) {
+	scr_plr_lvl();
 	instance_destroy(obj_spi_detection);
 	instance_destroy();
 }

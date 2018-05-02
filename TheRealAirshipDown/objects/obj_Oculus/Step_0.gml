@@ -17,6 +17,7 @@ y+=brdVspd;
 
 //death
 if(brdHlth<=0){
+	scr_plr_lvl();
 	instance_destroy();
 }
 
