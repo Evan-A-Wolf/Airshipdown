@@ -1,4 +1,6 @@
 /// @description Visual code
 draw_self();
 pc = (hp/100) * 100;
+xp = (exper/(lvl*10))*100
 draw_healthbar(x-50, y-50, x+50, y-70, pc, c_black, c_red, c_lime, 0, true, true);
+draw_healthbar(x-25, y-25, x+25, y-35, xp, c_black, c_blue, c_aqua, 0, true, true);

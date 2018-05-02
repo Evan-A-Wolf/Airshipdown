@@ -25,3 +25,10 @@ if (place_meeting(x,y,obj_health)) {
 	else hp = hpMax;
 	instance_destroy(obj_health);
 }
+if(exper>=(lvl*10)){
+	lvl++;
+	exper=0;
+	hp+=10;
+	hpMax+=10;
+	str++;
+}

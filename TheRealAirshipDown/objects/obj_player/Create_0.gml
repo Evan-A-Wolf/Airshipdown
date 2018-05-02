@@ -20,6 +20,7 @@ res = 1;
 
 
 lvl = 0;
+exper = 0;
 hp = 100;
 hpMax = hp;
 mp = 100;
