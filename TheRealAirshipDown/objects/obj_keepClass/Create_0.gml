@@ -1,0 +1,1 @@
+class_picked = 0;
