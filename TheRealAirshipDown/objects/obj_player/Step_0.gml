@@ -20,10 +20,11 @@ if(keyboard_check(ord("X"))){
 if(keyboard_check(ord("Z"))){
 	game_load("MCPlatypus.dat");
 }
-if (place_meeting(x,y,obj_health)) {
+if (place_meeting(x,y,obj_health)&&healCool<=0) {
+	healCool = 5;
 	if (hp+25 <= hpMax)	hp+=25;
 	else hp = hpMax;
-	instance_destroy(obj_health);
+	
 }
 if(exper>=(lvl*10)){
 	lvl++;
@@ -32,3 +33,4 @@ if(exper>=(lvl*10)){
 	hpMax+=10;
 	str++;
 }
+healCool--;

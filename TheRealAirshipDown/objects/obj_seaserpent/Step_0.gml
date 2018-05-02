@@ -1,1 +1,0 @@
-script_exists(scr_enemy_death());

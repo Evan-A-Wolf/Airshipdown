@@ -22,7 +22,7 @@ res = 1;
 lvl = 0;
 exper = 0;
 hp = 100;
-	hpMax = hp;
+hpMax = hp;
 mp = 100;
 str = 1;
 
@@ -32,3 +32,4 @@ wizard = 1;
 caster = 2;
 class = 0;
 alarm[1] = 20;
+healCool = 0;
