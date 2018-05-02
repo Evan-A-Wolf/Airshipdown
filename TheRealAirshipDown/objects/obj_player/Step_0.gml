@@ -3,7 +3,7 @@ script_exists(scr_player_movment());
 var skey = keyboard_check(vk_space);
 if (hp <= 0){
 	game_load("roomsave.txt");
-	room_restart();
+	
 }
 // Sowrd swing
 ison += 1;
@@ -26,6 +26,7 @@ if (place_meeting(x,y,obj_health)&&healCool<=0) {
 	else hp = hpMax;
 	
 }
+//lvl up
 if(exper>=(lvl*10)){
 	lvl++;
 	exper=0;
