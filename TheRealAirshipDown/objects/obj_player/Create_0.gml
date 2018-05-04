@@ -1,5 +1,4 @@
 /// @description starting code.
-class = global.pClass;
 //platforming variables
 grav = 1;
 spd = 6;

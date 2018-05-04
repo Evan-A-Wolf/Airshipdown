@@ -38,12 +38,12 @@ if(exper>=(lvl*10)&&class==0){
 	exper=0;
 	hp+=1;
 	hpMax+=5;
-	str++;
+	str+=(4*lvl);
 }else if(exper>=(lvl*11)&&class==2){
 	lvl++;
 	exper=0;
 	hp+=10;
 	hpMax+=10;
-	str++;
+	str+=(3*lvl);
 }
 healCool--;

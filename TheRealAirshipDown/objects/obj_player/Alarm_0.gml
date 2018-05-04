@@ -1,2 +1,2 @@
-/// @description Regain speed af6ter debuf
+/// @description Regain speed after debuf
 spd = origSpd;
