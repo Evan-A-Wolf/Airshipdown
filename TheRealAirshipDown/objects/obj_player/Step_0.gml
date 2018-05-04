@@ -26,6 +26,7 @@ if (place_meeting(x,y,obj_health)&&healCool<=0) {
 	else hp = hpMax;
 	
 }
+sprite_index = class;
 //lvl up
 if(exper>=(lvl*10)&&class==0){
 	lvl++;
