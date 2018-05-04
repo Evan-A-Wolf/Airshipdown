@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "50dc26df-ca51-4bfc-8dd4-322605145beb",
+            "Value": {
+                "id": "27ff31cc-e6b1-4d03-a1a0-1323a9550869",
+                "resourcePath": "views\\6f584eb1-2c1f-47a8-b8df-3b04080e2f55-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "52527d25-916b-4ed8-8549-cc324b0c67b7",
             "Value": {
                 "id": "62c853b4-ea21-45e5-a26d-95246f23bb8e",
@@ -308,6 +316,14 @@
                 "id": "87c1ce0a-5e02-47da-b07c-b35d61b4c820",
                 "resourcePath": "objects\\obj_Slime\\obj_Slime.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "539c9ac3-e0ca-4e92-9daf-ea0d0c7ac0e6",
+            "Value": {
+                "id": "40b02f2e-85b5-403e-9b7d-f7225183c430",
+                "resourcePath": "sprites\\spr_forest_tileset\\spr_forest_tileset.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -484,6 +500,22 @@
                 "id": "563f02c3-d600-4c3c-921a-139dcf94c4a8",
                 "resourcePath": "views\\7c2348c5-738e-4da5-aa06-c1955f395422.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7d5f50ec-fa6a-4160-8894-dd2c6067f18e",
+            "Value": {
+                "id": "010d298e-20c0-4547-8923-d7a7087ff381",
+                "resourcePath": "tilesets\\tileset1\\tileset1.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "7e78a40e-740f-4f84-8862-a4a8c60381b5",
+            "Value": {
+                "id": "0e06f21b-e95a-46f9-a7dd-d5eaa0eb9ff1",
+                "resourcePath": "sprites\\spr_slime_m\\spr_slime_m.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -735,6 +767,14 @@
             }
         },
         {
+            "Key": "b34953f9-f31c-410f-a3e8-f3e12e947638",
+            "Value": {
+                "id": "b1dd9fc6-e39e-42cb-b337-be4c782740a2",
+                "resourcePath": "rooms\\rm_beach\\rm_beach.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b393d67e-7d75-4817-a338-f56e400df69f",
             "Value": {
                 "id": "4ea46722-8187-4183-9162-88e0266fd529",
@@ -951,6 +991,14 @@
             }
         },
         {
+            "Key": "e564893f-932e-4010-bcda-eaf7ca0cf36b",
+            "Value": {
+                "id": "f3ff42e5-a1ff-44e9-b58d-4af133403d3a",
+                "resourcePath": "sprites\\spr_slime_L\\spr_slime_L.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e5cb0e89-c872-48cf-a2ee-6449e565c322",
             "Value": {
                 "id": "098821b9-ad1e-483e-ab93-509e8f99c352",
@@ -986,7 +1034,7 @@
             "Key": "ebd46f4e-b5d3-4ecc-86a8-46f4b4257a76",
             "Value": {
                 "id": "7cc42c74-94a3-4ba3-bc0e-e6684d286202",
-                "resourcePath": "sprites\\sprite33\\sprite33.yy",
+                "resourcePath": "sprites\\spr_slime_r\\spr_slime_r.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -996,6 +1044,22 @@
                 "id": "1269ffbb-4302-4344-8d26-cda1c0e68a8d",
                 "resourcePath": "tilesets\\ts_underdasea\\ts_underdasea.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "ee97bc1d-0825-4c74-9bbd-94f0cc4b26ce",
+            "Value": {
+                "id": "5ed49bfd-9e4b-4ea1-9313-625670cd6832",
+                "resourcePath": "rooms\\tribal_area\\tribal_area.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "eecf9a07-13b6-4d9e-a384-f446ce2983c7",
+            "Value": {
+                "id": "ded8a833-4fa2-4f37-9244-8b1307206b60",
+                "resourcePath": "rooms\\w_slime_forest\\w_slime_forest.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
