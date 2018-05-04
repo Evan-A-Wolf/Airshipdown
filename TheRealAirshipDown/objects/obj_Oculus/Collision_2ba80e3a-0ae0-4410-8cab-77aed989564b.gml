@@ -1,1 +1,1 @@
-brdHlth --;
+brdHlth -=obj_player.str;

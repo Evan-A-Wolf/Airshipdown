@@ -7,7 +7,7 @@ cooldown++;
 
 deathcool++;
 if (place_meeting(x,y,obj_sword)&&deathcool>=12) {
-	hp-=5;
+	hp-=obj_player.str;
 	deathcool=0;
 }
 if (hp<=0) {
