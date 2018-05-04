@@ -31,14 +31,6 @@
     },
     "resources": [
         {
-            "Key": "0017a48c-c567-44f6-840f-322c59f23320",
-            "Value": {
-                "id": "8157cdc8-8e66-452e-8fd6-b632c7b6be9a",
-                "resourcePath": "objects\\obj_getClass\\obj_getClass.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "00994c8d-9419-4fff-995e-c75177029579",
             "Value": {
                 "id": "3222b23c-99d3-40f4-9d2a-eeb520eec6af",
@@ -247,14 +239,6 @@
             }
         },
         {
-            "Key": "3df2c77a-0957-4e01-b4e8-7c2087133128",
-            "Value": {
-                "id": "e4525d6d-e6c9-4605-a3ab-dcf71c67a8cd",
-                "resourcePath": "objects\\obj_pickCaster\\obj_pickCaster.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "3eb3d3b7-85e0-4232-a5a9-82237e2bc1be",
             "Value": {
                 "id": "2c5e91d2-87b9-4485-93be-0389d1acc5c9",
@@ -331,14 +315,6 @@
             "Value": {
                 "id": "436a3a1f-1b4b-46a0-9ced-ae99bb2ce576",
                 "resourcePath": "objects\\obj_wall\\obj_wall.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "56847341-ac92-46b1-8e08-ebccd80a416e",
-            "Value": {
-                "id": "b6350ac9-4931-4551-87a0-fa555b8dd370",
-                "resourcePath": "objects\\obj_pickBattlemage\\obj_pickBattlemage.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -611,14 +587,6 @@
             "Value": {
                 "id": "2bf7e597-9e70-4e88-a368-bc771a9ce320",
                 "resourcePath": "objects\\obj_Bunnies\\obj_Bunnies.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "92d25691-ffe8-421a-b7e9-ca05fb1b0b71",
-            "Value": {
-                "id": "7235d95d-5988-4283-9a3e-7daf45124508",
-                "resourcePath": "objects\\obj_pickWizard\\obj_pickWizard.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -964,14 +932,6 @@
                 "id": "dd247f5e-7fa2-43ed-aadf-33a281b8c714",
                 "resourcePath": "datafiles_yy\\spr_slime\\e9aa62a5-9c2f-4a85-a147-35797e48e91b.png.yy",
                 "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "e611313a-48a3-4b18-b629-e7d12c481a91",
-            "Value": {
-                "id": "b82c987a-6e07-4a70-b904-187e1b299e55",
-                "resourcePath": "objects\\obj_keepClass\\obj_keepClass.yy",
-                "resourceType": "GMObject"
             }
         },
         {

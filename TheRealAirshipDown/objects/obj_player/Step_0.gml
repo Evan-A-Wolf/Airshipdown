@@ -27,7 +27,19 @@ if (place_meeting(x,y,obj_health)&&healCool<=0) {
 	
 }
 //lvl up
-if(exper>=(lvl*10)){
+if(exper>=(lvl*10)&&class==0){
+	lvl++;
+	exper=0;
+	hp+=10;
+	hpMax+=10;
+	str+=(5*lvl);
+}else if(exper>=(lvl*5)&&class==1){
+	lvl++;
+	exper=0;
+	hp+=1;
+	hpMax+=5;
+	str++;
+}else if(exper>=(lvl*11)&&class==2){
 	lvl++;
 	exper=0;
 	hp+=10;

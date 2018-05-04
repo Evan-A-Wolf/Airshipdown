@@ -1,6 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+/// @description starting code.
+class = global.pClass;
 //platforming variables
 grav = 1;
 spd = 6;
