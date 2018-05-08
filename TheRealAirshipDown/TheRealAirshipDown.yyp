@@ -1199,6 +1199,14 @@
             }
         },
         {
+            "Key": "ecb01147-5b79-4a45-ab03-43bb3a41e123",
+            "Value": {
+                "id": "64997008-e691-4c04-af4b-9e592e494daf",
+                "resourcePath": "sprites\\spr_crystalcave_bg\\spr_crystalcave_bg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ed787f26-b117-4bed-af8d-f3993f3039ac",
             "Value": {
                 "id": "1269ffbb-4302-4344-8d26-cda1c0e68a8d",
