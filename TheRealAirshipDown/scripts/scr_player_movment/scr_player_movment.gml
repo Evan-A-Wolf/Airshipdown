@@ -31,6 +31,7 @@ if (place_meeting(x,y+1,obj_wall)) {
 }
 // Moveing right
 if (rkey) {
+	sprite_index = spr_player_run;
 	if (hspd < spd) {
 		hspd += fric;
 	} else {
@@ -42,6 +43,7 @@ if (rkey) {
 }
 // moving left
 if (lkey) {
+	sprite_index = spr_player_run;
 	if (hspd > -spd) {
 		hspd -= fric;
 	} else {
@@ -53,6 +55,9 @@ if (lkey) {
 }
 // check for idle
 if ((!lkey && !rkey) || (lkey && rkey)) {
+	if (vspd == 0 && jkey) {
+		sprite_index = spr_player_temp;
+	}
 	if (hspd != 0) {
 		if (hspd < 0) {
 			hspd += fric;
