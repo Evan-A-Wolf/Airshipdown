@@ -1,0 +1,1 @@
+global.bunsKilled = 0;
