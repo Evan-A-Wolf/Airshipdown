@@ -7,9 +7,11 @@ var ekey = keyboard_check(ord("e"));
 if (place_meeting(x,y+1,obj_wall)) {
 	airjump = 1;
 	vspd = 0;
+	sprite_index = spr_player_temp;
 	// jumping
 	if (jkey) {
 		vspd = -jspd;
+		sprite_index = spr_player_jump;
 	}
 } else {
 	// gravity
