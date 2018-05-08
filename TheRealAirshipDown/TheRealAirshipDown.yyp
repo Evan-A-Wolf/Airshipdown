@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "1aab50c1-25e5-47b3-bdce-b7a68ff0050e",
+            "Value": {
+                "id": "9b389076-2b62-4c34-91d7-e8d15f6d8313",
+                "resourcePath": "sprites\\sprite58\\sprite58.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1c01578a-b0cf-4417-983f-4acaf49c80a6",
             "Value": {
                 "id": "8f7446e5-ac85-4ba1-b492-5bc4061ae1b9",
@@ -930,7 +938,7 @@
             "Key": "b2e8c3ba-0df3-4741-ad4b-baa79bef63a4",
             "Value": {
                 "id": "71004ac8-c67f-4244-8140-122309f2f358",
-                "resourcePath": "sprites\\spr_Skeleton\\spr_Skeleton.yy",
+                "resourcePath": "sprites\\spr_skeliboi_old\\spr_skeliboi_old.yy",
                 "resourceType": "GMSprite"
             }
         },
