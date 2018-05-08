@@ -2,7 +2,7 @@
     "id": "7d5f50ec-fa6a-4160-8894-dd2c6067f18e",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "tileset1",
+    "name": "ts_slime_forest",
     "auto_tile_sets": [
         
     ],
@@ -14,7 +14,7 @@
             
         ]
     },
-    "out_columns": 4,
+    "out_columns": 3,
     "out_tilehborder": 2,
     "out_tilevborder": 2,
     "spriteId": "539c9ac3-e0ca-4e92-9daf-ea0d0c7ac0e6",
@@ -30,15 +30,7 @@
             4,
             5,
             6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15
+            7
         ],
         "SerialiseFrameCount": 1
     },
@@ -46,11 +38,11 @@
         
     ],
     "tile_animation_speed": 15,
-    "tile_count": 16,
-    "tileheight": 32,
+    "tile_count": 8,
+    "tileheight": 64,
     "tilehsep": 0,
     "tilevsep": 0,
-    "tilewidth": 32,
+    "tilewidth": 64,
     "tilexoff": 0,
-    "tileyoff": 0
+    "tileyoff": 28
 }
