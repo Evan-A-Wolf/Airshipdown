@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "6b85d2a6-ee00-47e3-b246-a13f40b7dcff",
+            "Value": {
+                "id": "487b304d-0108-4512-afb6-09c13ad11e29",
+                "resourcePath": "rooms\\w_slime_forest_rm1\\w_slime_forest_rm1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "6bd1c1ec-5b56-46c2-b23f-2942b895000e",
             "Value": {
                 "id": "aafb67cb-0d29-4e9c-8506-f2c9c1e233b5",
@@ -1130,7 +1138,7 @@
             "Key": "eecf9a07-13b6-4d9e-a384-f446ce2983c7",
             "Value": {
                 "id": "ded8a833-4fa2-4f37-9244-8b1307206b60",
-                "resourcePath": "rooms\\w_slime_forest\\w_slime_forest.yy",
+                "resourcePath": "rooms\\w_slime_forest_ent\\w_slime_forest_ent.yy",
                 "resourceType": "GMRoom"
             }
         },
