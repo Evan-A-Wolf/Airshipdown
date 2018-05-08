@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "02b714f2-f1e5-45f2-924b-f9719588671b",
+            "Value": {
+                "id": "a31eaad3-a4d7-4646-b891-cfd746549b97",
+                "resourcePath": "rooms\\w_slime_forest_rm3\\w_slime_forest_rm3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0503a563-62a3-46e2-a1bf-58b0e6a4a957",
             "Value": {
                 "id": "d59ecad3-aafe-440e-b3c1-4c0a8411b8a2",
@@ -900,6 +908,14 @@
                 "id": "b246caa9-93b2-42bf-b440-16e144639df1",
                 "resourcePath": "views\\ae22a9e0-2558-4bc0-b4db-1213da2fa9d8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b0dd9c35-0936-474b-ba62-e883dda0904f",
+            "Value": {
+                "id": "170b8729-2471-4b5b-b984-fbc5abb23661",
+                "resourcePath": "sprites\\sprite57\\sprite57.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
