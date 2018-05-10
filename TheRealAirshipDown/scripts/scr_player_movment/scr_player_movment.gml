@@ -77,6 +77,11 @@ if (place_meeting(x+hspd, y, obj_wall)) {
 		x += sign(hspd);
 	}
 	hspd = 0;
+}else if(place_meeting(x+hspd, y, obj_wall_slime)){
+	while (!place_meeting(x+sign(hspd), y, obj_wall_slime)) {
+		x += sign(hspd);
+	}
+	hspd = 0;
 }
 // Move horizontally
 x += hspd;
@@ -88,6 +93,11 @@ if (place_meeting(x, y+vspd, obj_wall)) {
 	vspd = 0;
 }else if (place_meeting(x, y+vspd, obj_door_dirt)) {
 	while (!place_meeting(x, y+sign(vspd), obj_door_dirt)) {
+		y += sign(vspd);
+	}
+	vspd = 0;
+}else if (place_meeting(x, y+vspd, obj_wall_slime)) {
+	while (!place_meeting(x, y+sign(vspd), obj_wall_slime)) {
 		y += sign(vspd);
 	}
 	vspd = 0;
