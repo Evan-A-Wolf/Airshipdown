@@ -1,0 +1,1 @@
+room_goto(crystal_caverns_ent)

@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "538342f7-43f3-46e8-a643-b391e2d9ca53",
+            "Value": {
+                "id": "b4253c87-3409-4ace-a318-63fb58d5afd0",
+                "resourcePath": "rooms\\crystal_caverns_ent\\crystal_caverns_ent.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "539c9ac3-e0ca-4e92-9daf-ea0d0c7ac0e6",
             "Value": {
                 "id": "40b02f2e-85b5-403e-9b7d-f7225183c430",
@@ -860,6 +868,14 @@
                 "id": "907a42f9-94df-416d-95e5-e1fbba8246e3",
                 "resourcePath": "datafiles_yy\\spr_slime\\layers\\295b0853-84ef-4357-ad8d-0eea7e7679fd\\28797a05-111b-4794-8ee0-de017d4df64b.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "a63d3815-637d-47a3-b82d-8709b45bbeea",
+            "Value": {
+                "id": "69900697-23ef-4173-a5ce-ed9db7e5870e",
+                "resourcePath": "objects\\obj_warp_crystal\\obj_warp_crystal.yy",
+                "resourceType": "GMObject"
             }
         },
         {
