@@ -15,7 +15,7 @@ if (hp<=0) {
 }
 if (distance_to_object(obj_player) < 500) {
 	if(counter>=60) {
-		instance_create_layer(x,y,"Instances",obj_skel_Arrow);
+		instance_create_layer(x,y,"Instances",obj_waterfire);
 		counter=0;
 	}
 }
