@@ -2,7 +2,7 @@
 script_exists(scr_player_movment());
 var skey = keyboard_check(vk_space);
 var attack = mouse_check_button(mb_left);
-var magic = mouse_check_button(mb_left);
+var magic = mouse_check_button(mb_right);
 if (hp <= 0){
 	game_load("roomsave.txt");
 	
@@ -16,8 +16,18 @@ if (attack && ison >= limit) {
 	if (dirc == -1) obj_sword.image_xscale = -1;
 	ison = 0;
 }
-if (magic && ison >= limit) {
+if (magic && ison >= limit && mp >= 0) {
 	instance_create_depth(x,y,-10,obj_player_fire);
+	if (dirc == 1) {
+		obj_player_fire.image_xscale = 1;
+		obj_player_fire.x = 10;
+	}
+	else {
+		obj_player_fire.image_xscale = -1; 
+		obj_player_fire.x = -10;
+	}
+	mp -= 10;
+	ison = 0;
 }
 if(keyboard_check(ord("X"))){
 	game_save("MCPlatypus.dat");
