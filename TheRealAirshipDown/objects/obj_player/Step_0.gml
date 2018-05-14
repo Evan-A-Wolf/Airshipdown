@@ -19,12 +19,10 @@ if (attack && ison >= limit) {
 if (magic && ison >= limit && mp >= 0) {
 	instance_create_depth(x,y,-10,obj_player_fire);
 	if (dirc == 1) {
-		obj_player_fire.image_xscale = 1;
-		obj_player_fire.speed = 20;
+		obj_player_fire.direction = 1;
 	}
 	else {
-		obj_player_fire.image_xscale = -1; 
-		obj_player_fire.speed = -20;
+		obj_player_fire.direction = -1;
 	}
 	mp -= 10;
 	ison = 0;
