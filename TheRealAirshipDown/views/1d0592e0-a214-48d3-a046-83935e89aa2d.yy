@@ -11,7 +11,9 @@
         "b393d67e-7d75-4817-a338-f56e400df69f",
         "161c3c98-2144-4de1-87d5-4f317f7199fa",
         "92c522c8-56ba-4cf1-aec0-ae28284aa56a",
-        "fa1c64b5-1a10-43b8-ac28-516a4e6a5727"
+        "fa1c64b5-1a10-43b8-ac28-516a4e6a5727",
+        "a8368e72-3c58-4626-af48-af5047ab9c9d",
+        "c822642d-5f9d-4053-af50-ea542455be12"
     ],
     "filterType": "GMSprite",
     "folderName": "Projectile Sprites",
