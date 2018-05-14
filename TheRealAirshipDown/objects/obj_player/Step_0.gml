@@ -18,14 +18,7 @@ if (attack && ison >= limit) {
 }
 if (magic && ison >= limit && mp >= 0) {
 	instance_create_depth(x,y,-10,obj_player_fire);
-	if (dirc == 1) {
-		obj_player_fire.image_xscale = 1;
-		obj_player_fire.speed = 20;
-	}
-	else {
-		obj_player_fire.image_xscale = -1; 
-		obj_player_fire.speed = -20;
-	}
+	
 	mp -= 10;
 	ison = 0;
 }
@@ -48,8 +41,8 @@ if (place_meeting(x,y,obj_fullPot)&&healCool<=0) {
 }
 if (place_meeting(x,y,obj_manaPot)&&healCool<=0) {
 	healCool = 5;
-	if (mp+25 <= mpMax)	mp=mpMax;
-	else mp = mpMax;
+	if (mp+25 <= maxMp)	mp+=25;
+	else mp = maxMp;
 	
 }
 image_speed = 0.2;
