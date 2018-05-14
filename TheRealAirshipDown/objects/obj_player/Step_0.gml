@@ -10,11 +10,14 @@ if (hp <= 0){
 // Sowrd swing
 ison += 1;
 limit = 11;
-if (skey && ison >= limit) {
+if (attack && ison >= limit) {
 	instance_create_depth(x,y,-10, obj_sword);
 	if (dirc == 1) obj_sword.image_xscale = 1;
 	if (dirc == -1) obj_sword.image_xscale = -1;
 	ison = 0;
+}
+if (magic && ison >= limit) {
+	instance_create_depth(x,y,-10,obj_player_fire);
 }
 if(keyboard_check(ord("X"))){
 	game_save("MCPlatypus.dat");
