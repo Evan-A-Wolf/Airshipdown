@@ -1,6 +1,8 @@
 /// @description 
 script_exists(scr_player_movment());
 var skey = keyboard_check(vk_space);
+var attack = mouse_check_button(mb_left);
+var magic = mouse_check_button(mb_right);
 if (hp <= 0){
 	game_load("roomsave.txt");
 	
@@ -8,10 +10,23 @@ if (hp <= 0){
 // Sowrd swing
 ison += 1;
 limit = 11;
-if (skey && ison >= limit) {
+if (attack && ison >= limit) {
 	instance_create_depth(x,y,-10, obj_sword);
 	if (dirc == 1) obj_sword.image_xscale = 1;
 	if (dirc == -1) obj_sword.image_xscale = -1;
+	ison = 0;
+}
+if (magic && ison >= limit && mp >= 0) {
+	instance_create_depth(x,y,-10,obj_player_fire);
+	if (dirc == 1) {
+		obj_player_fire.image_xscale = 1;
+		obj_player_fire.x = 10;
+	}
+	else {
+		obj_player_fire.image_xscale = -1; 
+		obj_player_fire.x = -10;
+	}
+	mp -= 10;
 	ison = 0;
 }
 if(keyboard_check(ord("X"))){
@@ -24,7 +39,6 @@ if (place_meeting(x,y,obj_health)&&healCool<=0) {
 	healCool = 5;
 	if (hp+25 <= hpMax)	hp+=25;
 	else hp = hpMax;
-	
 }
 image_speed = 0.2;
 //lvl up
