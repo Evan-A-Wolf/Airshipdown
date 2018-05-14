@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "27b93f2d-fa21-46d3-8276-9330bdfabc30",
+            "Value": {
+                "id": "8ca6ca7f-f0b5-4e4c-b0f1-d9291b63ec04",
+                "resourcePath": "rooms\\w_slime_forest_rm4\\w_slime_forest_rm4.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2c5f65a6-6ef0-4948-bff6-ebf25a24cfef",
             "Value": {
                 "id": "e76222e3-4a64-479e-8bc0-5c688b371dec",
