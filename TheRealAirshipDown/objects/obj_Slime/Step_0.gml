@@ -18,7 +18,7 @@ if(object_exists(obj_player)) {
 	vspd = 0;
 	hspd = 0;
 	// jumping
-	if (canjump == true) {
+	if (canjump == true&&!place_meeting(x,y+vspd,obj_wall)) {
 		sprite_index = spr_SlimeJ;
 		vspd = -jspd;
 		hspd = mspd*dirc;
