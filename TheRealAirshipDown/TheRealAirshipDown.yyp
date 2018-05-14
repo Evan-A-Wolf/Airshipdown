@@ -807,6 +807,14 @@
             }
         },
         {
+            "Key": "91d8775e-0217-4f00-929a-a1edf86aaf4a",
+            "Value": {
+                "id": "5ad434a8-97e9-4c1d-85f4-5e7cc75624cf",
+                "resourcePath": "sprites\\spr_slime_dirtdark\\spr_slime_dirtdark.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "923c1a49-d63b-4d6e-a99f-ac9bc62f981e",
             "Value": {
                 "id": "a57369db-69f0-45dd-bcb0-7d28d82153cf",
