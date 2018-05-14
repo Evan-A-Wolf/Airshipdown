@@ -1,6 +1,8 @@
 /// @description 
 script_exists(scr_player_movment());
 var skey = keyboard_check(vk_space);
+var attack = mouse_check_button(mb_left);
+var magic = mouse_check_button(mb_left);
 if (hp <= 0){
 	game_load("roomsave.txt");
 	
@@ -24,7 +26,6 @@ if (place_meeting(x,y,obj_health)&&healCool<=0) {
 	healCool = 5;
 	if (hp+25 <= hpMax)	hp+=25;
 	else hp = hpMax;
-	
 }
 image_speed = 0.2;
 //lvl up
