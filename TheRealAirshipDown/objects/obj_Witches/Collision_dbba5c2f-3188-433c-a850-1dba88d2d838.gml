@@ -5,4 +5,4 @@ if(spelltype>2){
 	obj_player.exper-=20;
 }
 
-alarm[0] = 10;
+alarm[0] = 2;
