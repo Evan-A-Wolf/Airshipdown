@@ -874,7 +874,7 @@
             "Key": "9f8db146-768a-4c67-9f10-39a6a28962aa",
             "Value": {
                 "id": "649c5a4e-8121-4aa0-ab3f-70cb77cadf2d",
-                "resourcePath": "objects\\obj_health1\\obj_health1.yy",
+                "resourcePath": "objects\\obj_fullPot\\obj_fullPot.yy",
                 "resourceType": "GMObject"
             }
         },

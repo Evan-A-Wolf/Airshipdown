@@ -2,7 +2,7 @@
     "id": "9f8db146-768a-4c67-9f10-39a6a28962aa",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_health1",
+    "name": "obj_fullPot",
     "eventList": [
         {
             "id": "b0a57233-c0ae-47e4-a445-2a97d574e4e3",

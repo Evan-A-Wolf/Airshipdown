@@ -39,6 +39,18 @@ if (place_meeting(x,y,obj_health)&&healCool<=0) {
 	healCool = 5;
 	if (hp+25 <= hpMax)	hp+=25;
 	else hp = hpMax;
+	
+}
+if (place_meeting(x,y,obj_fullPot)&&healCool<=0) {
+	healCool = 5;
+	hp = hpMax;
+	
+}
+if (place_meeting(x,y,obj_manaPot)&&healCool<=0) {
+	healCool = 5;
+	if (mp+25 <= mpMax)	mp=mpMax;
+	else mp = mpMax;
+	
 }
 image_speed = 0.2;
 //lvl up
