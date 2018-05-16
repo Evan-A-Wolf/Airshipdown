@@ -7,6 +7,17 @@ if (hp <= 0){
 	game_load("roomsave.txt");
 	
 }
+if(mouse_check_button(mb_middle)){
+	if(mp>=20){
+		if( hp+(hpMax/2) < hpMax ){
+			hp+=hpMax/2;
+		}else{
+			hp=hpMax;	
+		}
+	
+		mp-=20;
+	}
+}
 // Sowrd swing
 ison += 1;
 limit = 11;
