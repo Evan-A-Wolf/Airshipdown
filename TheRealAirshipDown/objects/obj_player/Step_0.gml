@@ -9,8 +9,8 @@ if (hp <= 0){
 }
 if(mouse_check_button(mb_middle)){
 	if(mp>=20){
-		if( hp+(hpMax/2) < hpMax ){
-			hp+=hpMax/2;
+		if( hp+(hpMax/4) < hpMax ){
+			hp+=hpMax/4;
 		}else{
 			hp=hpMax;	
 		}
