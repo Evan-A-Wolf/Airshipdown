@@ -12,5 +12,8 @@ if(place_meeting(x,y,obj_sword)){
 	obj_player.exper++;
 	instance_destroy();
 }
-
+if (place_meeting(x,y,obj_player_fire)) {
+	obj_player.exper++;
+	instance_destroy();
+}
 x+=hspd;
