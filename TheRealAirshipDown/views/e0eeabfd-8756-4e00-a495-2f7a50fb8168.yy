@@ -23,7 +23,12 @@
         "84e7148c-3518-4054-95f8-6df72fc6c9da",
         "873e7058-5221-461e-b711-86c12e882581",
         "ecb01147-5b79-4a45-ab03-43bb3a41e123",
-        "b0dd9c35-0936-474b-ba62-e883dda0904f"
+        "b0dd9c35-0936-474b-ba62-e883dda0904f",
+        "0bb8af5d-2212-4dbf-9578-38c38c10b115",
+        "dafed9b0-9f52-4fc9-b8a9-69a0da70861a",
+        "8378fd23-ea6f-4b3b-9a61-9fac354f1038",
+        "f9259ef3-f125-42a2-8ede-4f3ed98e851c",
+        "d5153bf7-3ec2-4a70-a961-9092cab2781d"
     ],
     "filterType": "GMSprite",
     "folderName": "Walls 'n stuff",
