@@ -1343,14 +1343,6 @@
             }
         },
         {
-            "Key": "ee97bc1d-0825-4c74-9bbd-94f0cc4b26ce",
-            "Value": {
-                "id": "5ed49bfd-9e4b-4ea1-9313-625670cd6832",
-                "resourcePath": "rooms\\tribal_area\\tribal_area.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "eecf9a07-13b6-4d9e-a384-f446ce2983c7",
             "Value": {
                 "id": "ded8a833-4fa2-4f37-9244-8b1307206b60",
