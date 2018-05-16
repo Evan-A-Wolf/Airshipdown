@@ -63,7 +63,13 @@ if (place_meeting(x,y,obj_player) && cooldown >= time) {
 	cooldown = 0;
 }
 cooldown++;
-
+if (distance_to_object(obj_player) < 500) {
+	if(count>=60) {
+		instance_create_layer(x,y,"Instances",obj_skel_Arrow);
+		count=0;
+	}
+}
+count++;
 deathcool++;
 if (place_meeting(x,y,obj_sword)&&deathcool>=12) {
 	hp-=obj_player.str;
@@ -71,6 +77,5 @@ if (place_meeting(x,y,obj_sword)&&deathcool>=12) {
 }
 if (hp<=0) {
 	scr_plr_lvl();
-	instance_destroy(obj_spi_detection);
 	instance_destroy();
 }
