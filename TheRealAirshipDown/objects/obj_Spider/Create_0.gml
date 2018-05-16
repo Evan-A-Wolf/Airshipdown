@@ -14,4 +14,4 @@ hp = 10;
 dirc = irandom_range(-1,1);
 vdirc = 1;
 canjump = false;
-count = 0;
+instance_create_layer(x,y,"Instances",obj_spi_detection);

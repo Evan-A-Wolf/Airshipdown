@@ -6,7 +6,8 @@
     "children": [
         "6bd1c1ec-5b56-46c2-b23f-2942b895000e",
         "87874892-d026-4604-b922-dc59b189a0c2",
-        "c06e4e6b-1be0-4f0f-97e6-717e8d2ff677"
+        "c06e4e6b-1be0-4f0f-97e6-717e8d2ff677",
+        "7e8295a0-d882-4ede-a1c5-fdcdeb177224"
     ],
     "filterType": "GMObject",
     "folderName": "Spider",
