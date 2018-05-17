@@ -15,4 +15,3 @@ draw_healthbar(x-25, y-25, x+25, y-35, xp, c_black, c_blue, c_aqua, 0, true, tru
 draw_healthbar(x-50, y, x-40, y-50, mps, c_black, c_gray, c_blue, 2, true, true);
 draw_set_font(font0);
 draw_text(x-25,y-50,"LVL: "+string(lvl));
-draw_text(x-25,y-150,"Class: "+string(class));

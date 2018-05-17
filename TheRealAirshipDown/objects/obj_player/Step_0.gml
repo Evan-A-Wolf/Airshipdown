@@ -7,8 +7,8 @@ if (hp <= 0){
 	game_load("roomsave.txt");
 	
 }
-if(mouse_check_button(mb_middle)){
-	if(mp>=20){
+if(mouse_check_button_pressed(mb_middle)){
+	if(mp>=10){
 		if( hp+(hpMax/4) < hpMax ){
 			hp+=hpMax/4;
 		}else{
