@@ -1,7 +1,7 @@
 ///players movement
-var rkey = keyboard_check(vk_right);
-var lkey = keyboard_check(vk_left);
-var jkey = keyboard_check_pressed(vk_up);
+var rkey = keyboard_check(vk_right) || keyboard_check(ord("D"));
+var lkey = keyboard_check(vk_left) || keyboard_check(ord("A"));
+var jkey = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_space);
 var ekey = keyboard_check(ord("e"));
 // check for ground
 if (place_meeting(x,y+1,obj_wall)) {
@@ -18,7 +18,7 @@ if (place_meeting(x,y+1,obj_wall)) {
 	if (vspd < 10) {
 		vspd += grav;
 	}
-	if (keyboard_check_released(vk_up) && vspd < -4) {
+	if (keyboard_check_released(vk_up) || keyboard_check_released(ord("W")) || keyboard_check_released(vk_space) && vspd < -4) {
 		vspd = -4;
 	}
 	// check for air jump

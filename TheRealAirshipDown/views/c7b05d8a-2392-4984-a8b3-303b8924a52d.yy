@@ -6,8 +6,7 @@
     "children": [
         "c4a2a032-fd86-4ba8-a889-cea3582ee3d0",
         "d6c5e399-6dc5-4f31-a831-764f4b799b25",
-        "4fafa205-1944-45e3-abb8-ed52ef3d4cbe",
-        "eb5685dd-37b0-423c-805f-2b0e7281a100"
+        "4fafa205-1944-45e3-abb8-ed52ef3d4cbe"
     ],
     "filterType": "GMObject",
     "folderName": "Skeleton",

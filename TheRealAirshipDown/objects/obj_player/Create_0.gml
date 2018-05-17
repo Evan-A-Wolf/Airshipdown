@@ -24,7 +24,7 @@ hpMax = hp;
 mp = 100;
 maxMp = 100;
 str = 1;
-
+alarm[2] = 60;
 
 battlemage = 0;
 wizard = 1;

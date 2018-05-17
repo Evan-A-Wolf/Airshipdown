@@ -67,7 +67,7 @@ if (place_meeting(x,y,obj_sword)&&deathcool>=12) {
 if (hp<=0) {
 	scr_plr_lvl();
 	scr_plr_lvl();
-	scr_plr_lvl();
-	global.bunsKilled++;
+
+	//global.bunsKilled++;
 	instance_destroy();
 }

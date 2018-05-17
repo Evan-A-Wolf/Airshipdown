@@ -14,7 +14,6 @@ if(mouse_check_button(mb_middle)){
 		}else{
 			hp=hpMax;	
 		}
-	
 		mp-=20;
 	}
 }
@@ -43,7 +42,6 @@ if (place_meeting(x,y,obj_health)&&healCool<=0) {
 	healCool = 5;
 	if (hp+25 <= hpMax)	hp+=25;
 	else hp = hpMax;
-	
 }
 if (place_meeting(x,y,obj_fullPot)&&healCool<=0) {
 	healCool = 5;
@@ -54,8 +52,8 @@ if (place_meeting(x,y,obj_manaPot)&&healCool<=0) {
 	healCool = 5;
 	if (mp+50 <= maxMp)	mp+=50;
 	else mp = maxMp;
-	
 }
+
 image_speed = 0.2;
 //lvl up
 if(exper>=(lvl*10)&&class==0){
