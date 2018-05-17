@@ -12,7 +12,7 @@
         "38964383-7051-4735-a867-c2cd959945a8"
     ],
     "filterType": "GMObject",
-    "folderName": "Walls Sprites",
+    "folderName": "Walls Objects",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

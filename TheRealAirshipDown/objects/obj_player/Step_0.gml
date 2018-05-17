@@ -52,7 +52,7 @@ if (place_meeting(x,y,obj_fullPot)&&healCool<=0) {
 }
 if (place_meeting(x,y,obj_manaPot)&&healCool<=0) {
 	healCool = 5;
-	if (mp+25 <= maxMp)	mp+=25;
+	if (mp+50 <= maxMp)	mp+=50;
 	else mp = maxMp;
 	
 }
