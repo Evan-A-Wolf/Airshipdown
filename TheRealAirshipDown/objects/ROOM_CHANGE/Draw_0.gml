@@ -5,3 +5,4 @@ var cy = camera_get_view_y(view_camera[0]);
 var cw = camera_get_view_width(view_camera[0]);
 
 if(room==rm_title) draw_text(cx+cw/2.6, cy+350,"    Airship Down\nPress enter to start");
+if(room==rm_pick_class) draw_text(cx+cw/2.6, cy+350,"    Choose class below to begin your journy!");

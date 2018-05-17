@@ -647,6 +647,14 @@
             }
         },
         {
+            "Key": "78b9d693-85d5-4adb-be5b-a73bf4fe258d",
+            "Value": {
+                "id": "721ed7fc-57e3-404c-a0a8-07531fee57dd",
+                "resourcePath": "objects\\Button_Wizard\\Button_Wizard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "79af4fd8-a78d-4696-aa47-7b9b7b0169b6",
             "Value": {
                 "id": "cdac46af-1423-4439-bde5-39bfa248b246",
@@ -764,6 +772,14 @@
                 "id": "1679a4cf-d8e3-4514-a480-bb75da8d1d9b",
                 "resourcePath": "datafiles_yy\\spr_slime\\fde29762-6b41-4ebe-9105-4b4f1c34279b.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "889aa4a9-5e9d-4550-bbc3-ad7ab3c44b21",
+            "Value": {
+                "id": "2905b7ef-d96e-4d15-bdba-1e67bb45ec99",
+                "resourcePath": "rooms\\rm_pick_class\\rm_pick_class.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -927,6 +943,14 @@
             }
         },
         {
+            "Key": "a056533a-37bd-4251-b964-df251e3b40a4",
+            "Value": {
+                "id": "aecbe4db-9a32-487e-a2e8-d7a39f8bad31",
+                "resourcePath": "objects\\Button_Caster\\Button_Caster.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a13caab6-d751-4f7d-bd83-538dac4fec0d",
             "Value": {
                 "id": "82152f1c-d3dd-4cff-8f6c-b9dce16adf2a",
@@ -980,6 +1004,14 @@
                 "id": "4cde8a25-23bc-4041-b4f1-ac049dd0c05f",
                 "resourcePath": "datafiles_yy\\spr_slime\\layers\\f31e4214-c51d-4c77-b3d4-8ecf7c289f50\\28797a05-111b-4794-8ee0-de017d4df64b.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "aa9b8517-2d69-4ba0-9ea1-4ff1a41ecdb6",
+            "Value": {
+                "id": "c5044a76-2730-4b71-9df2-0e5196253d45",
+                "resourcePath": "objects\\Button_battleMage\\Button_battleMage.yy",
+                "resourceType": "GMObject"
             }
         },
         {
