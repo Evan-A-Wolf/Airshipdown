@@ -9,7 +9,7 @@ if (hp <= 0){
 }
 if(mouse_check_button_pressed(mb_middle)){
 	if(mp>=10){
-		if( hp+(hpMax/4) < hpMax ){
+		if(hp+(hpMax/4) < hpMax){
 			hp+=hpMax/4;
 		}else{
 			hp=hpMax;	
@@ -26,9 +26,8 @@ if (attack && ison >= limit) {
 	if (dirc == -1) obj_sword.image_xscale = -1;
 	ison = 0;
 }
-if (magic && ison >= limit && mp >= 0) {
+if (magic && ison >= 60 && mp >= 0) {
 	instance_create_depth(x,y,-10,obj_player_fire);
-	
 	mp -= 10;
 	ison = 0;
 }
