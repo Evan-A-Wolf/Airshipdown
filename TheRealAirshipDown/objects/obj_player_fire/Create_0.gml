@@ -8,3 +8,4 @@ if(d>0){
 if (place_meeting(x,y,obj_wall)) {
 	instance_destroy();
 }
+damage = false;

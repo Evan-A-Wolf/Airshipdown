@@ -11,6 +11,7 @@ if (place_meeting(x,y,obj_sword)&&deathcool>=12) {
 }
 if (place_meeting(x,y,obj_player_fire)&&deathcool>=12) {
 	hp-=obj_player.str*2;
+	obj_player_fire.damage = true;
 	deathcool=0;
 }
 if (hp<=0) {
