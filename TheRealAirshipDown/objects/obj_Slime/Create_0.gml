@@ -20,9 +20,9 @@ time = 15;
 
 deathcool = 0;
 cooldown = 0;
-maxhp = 2 + (slvl*10);
-hp = 2 + (slvl*10);
+maxhp = 10 + ((slvl*slvl)*10);
+hp = 10 + ((slvl*slvl)*10);
 
-if(slvl>10){
+if(slvl>=10){
 	sprite_index = spr_SlimePurple;
 }

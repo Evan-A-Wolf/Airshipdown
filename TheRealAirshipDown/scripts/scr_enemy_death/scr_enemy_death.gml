@@ -6,12 +6,12 @@ if (place_meeting(x,y,obj_player) && cooldown >= time) {
 cooldown++;
 
 deathcool++;
-if (place_meeting(x,y,obj_sword)&&deathcool>=12) {
+if (place_meeting(x,y,obj_sword)&&deathcool>=20) {
 	hp-=obj_player.str;
 	deathcool=0;
 }
 if (place_meeting(x,y,obj_player_fire)&&deathcool>=12) {
-	hp-=obj_player.str*2;
+	hp-=obj_player.str*1.5;
 	deathcool=0;
 }
 if (hp<=0) {
