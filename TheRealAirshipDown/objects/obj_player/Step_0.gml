@@ -1,4 +1,7 @@
 /// @description 
+if(mp<maxMp){
+	mp+=maxMp/100;
+}
 script_exists(scr_player_movment());
 var skey = keyboard_check(vk_space);
 var attack = mouse_check_button(mb_left);
