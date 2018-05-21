@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "2e16ad3c-1843-4844-a148-52706a4fc9f1",
+            "Value": {
+                "id": "659d3276-bb4c-430f-bae0-315184050a55",
+                "resourcePath": "sprites\\youWin\\youWin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2e1a6939-c95b-45d3-8d03-13be15e1bf4e",
             "Value": {
                 "id": "1a2de6e0-5efb-4d93-81f1-2aba38a32379",
